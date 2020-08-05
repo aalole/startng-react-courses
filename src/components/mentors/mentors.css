@@ -1,0 +1,485 @@
+.mentors-page {
+  font-family: Averta-Regular;
+  color: #505962;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* THIS IS THE HEADER SECTION */
+.mentors-page .headerSect {
+  background: rgba(242, 235, 233, 0.6);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.mentors-page .heading-title {
+    padding: 4em 0 7em 0;
+  background: rgba(242, 235, 233, 0.6);;
+}
+
+.mentors-page .headerP {
+  font-size: 14px;
+  color: #E7332B;
+  font-family: Averta-Regular;
+}
+
+.mentors-page .headerP2 {
+  font-family: Averta-Bold;
+  font-size: 32px;
+  color: #514949;
+}
+
+@media (min-width: 768px) {
+  .mentors-page .headerP2 {
+        max-width: 768px;
+        margin-left: auto;
+margin-right: auto;
+    }
+}
+
+
+/* ######################## */
+
+
+
+.mentors-page .active {
+  color: #E7332B !important;
+  font-family: 'Averta-Bold' !important;
+}
+
+
+.mentors-page.mentors-page {
+  --primary-font: "Averta", sans-serif;
+  --primary-color: #514949;
+  --secondary-color: #E7332B;
+  --form-border-color: #0B0B0B;
+  --banner-bg-color: #F2EBE9;
+  --facebook-color: #3b5998;
+  --twitter-color: #00acee;
+}
+
+
+/* header */
+
+
+.mentors-page header {
+
+  font-family: "Averta-Regular";
+  transition: all 0.5s;
+}
+
+.mentors-page .jj:hover {
+  color: #E7332B !important;
+}
+
+.mentors-page header .h-btn {
+  background: #E7332B;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .mentors-page header .h-btn {
+    margin-left: 105px;
+  }
+}
+
+/* navigation */
+
+.mentors-page header {
+  font-family: Averta-Regular;
+}
+
+.mentors-page .navbar {
+  text-transform: capitalize;
+  /* font-weight: 700; */
+  font-size: 16px !important;
+  /* letter-spacing: 0.1rem; */
+  /* background: #F2EBE9 !important; */
+}
+
+
+.mentors-page .navbar-dark .navbar-nav .nav-link {
+  color: #514949;
+  padding-top: 0.8rem;
+  font-size: 16px !important;
+  font-family: Averta-Regular !important;
+}
+
+
+
+.mentors-page .navbar-dark .navbar-nav .nav-link.active,
+.mentors-page .navbar-dark .navbar-nav .nav-link:hover {
+  color: #E7332B !important;
+}
+
+.mentors-page .btn-red {
+  width: 148px;
+  height: 46px;
+  background: #E7332B;
+  color: #fff;
+}
+
+/* mentor page */
+
+.mentors-page .mentor-intro {
+  background: #F2EBE9;
+  height: 306px;
+
+}
+
+.mentors-page .mentor-intro p {
+  font-size: 32px;
+  font-family: Averta-Bold;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+
+.mentors-page .page-heading {
+  color: #E7332B;
+  font-size: 14px;
+  padding-top: 80px;
+  font-family: Averta-Regular;
+}
+
+
+
+.mentors-page #mentor-gallery {
+  margin-top: 98px;
+}
+
+.mentors-page .mentor-image {
+  text-align: center;
+}
+
+.mentors-page .mentor-detail {
+  margin-bottom: 50px;
+}
+
+.mentors-page .fonty {
+  font-family: Averta-bold;
+}
+
+
+.mentors-page .mentor-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.mentors-page .mentor-track {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+/* enroll section */
+
+.mentors-page #enroll {
+  height: 600px;
+  padding: 100px 0 0px 0;
+}
+
+.mentors-page #enroll-content {
+
+  background-size: cover;
+  background-position: center;
+  height: 342px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mentors-page #enroll-content p {
+  margin-bottom: 48px;
+  font-size: 24px;
+}
+
+
+
+/* .footer-content {
+  justify-content: space-between;
+  border-bottom: 1px solid #514949;
+  padding-bottom: 30px;
+} */
+
+.mentors-page  .justify-between {
+  justify-content: space-between;
+}
+
+.mentors-page .contact-info {
+  flex-direction: column;
+}
+
+/* footer * {
+  font-family: Averta-Regular;
+  line-height: 1.5;
+} */
+
+
+/* footer */
+/* Footer
+------------------------------- */
+
+.mentors-page .facebook-link {
+  color: var(--facebook-color) !important;
+  font-size: 20px;
+}
+
+.mentors-page .twitter-link {
+  color: var(--twitter-color) !important;
+  font-size: 20px;
+}
+
+.mentors-page .copyright {
+  font-weight: bold;
+  margin-top: 56px;
+  /* padding: 32px 0 46px; */
+  border-top: 0.7px solid #514949;
+}
+
+
+/* bells codes */
+.mentors-page .mentor-detail * {
+  margin: 0;
+}
+
+.mentors-page .mentor-detail *+* {
+  margin-top: 0.75em;
+}
+
+@media (min-width: 768px) {
+  .mentors-page .mentor-detail {
+    margin-bottom: 5em;
+  }
+
+  .mentors-page .mentor-image img {
+    width: 100%;
+  }
+
+}
+
+/* #mentor-gallery .col-md-3 { */
+  /*padding-left: 3px;*/
+  /*padding-right: 3px;*/
+/* } */
+
+.mentors-page .mentor-detail img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.mentors-page .mentor-detail:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+
+}
+
+.mentors-page .mentor-image {
+  overflow: hidden;
+}
+
+
+
+/* FONT SIZING  */
+.mentors-page .mentor-name {
+  font-family: Averta-Bold;
+  font-size: 1em;
+  color: #514949;
+  font-weight: 900;
+}
+
+.mentors-page .mentor-track {
+  font-family: Averta-Semibold;
+  font-size: 0.875em;
+  line-height: 1.7;
+  color: #514949;
+}
+
+.mentors-page .sub-heading {
+  font-family: Averta-Regular;
+  font-size: 0.875em;
+  line-height: 1.7;
+  color: #e7332b;
+}
+
+.mentors-page .big-heading {
+  font-family: Averta-Regular;
+  font-size: 0.875em;
+  line-height: 1.7;
+  text-align: center;
+  color: #514949;
+}
+
+@media (min-width: 500px) {
+  .mentors-page .big-heading {
+    font-family: Averta-Bold;
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+
+
+  .mentors-page .mentor-name {
+    font-family: Averta-Bold;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.5;
+    color: #514949;
+  }
+
+  .mentors-page .mentor-track {
+    font-family: Averta-Regular;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #514949;
+    opacity: 0.9;
+  }
+
+  .mentors-page .big-heading {
+    font-family: Averta-Bold;
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: center;
+    color: #514949;
+  }
+}
+
+.mentors-page .custom-container {
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  .mentors-page .custom-container {
+    padding: 0 5em;
+  }
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+
+  .mentors-page .mentor-intro {
+    height: 180px;
+  }
+
+  .mentors-page .page-heading {
+    padding-top: 40px;
+  }
+
+  .mentors-page .mentor-info {
+    padding: 0 20px;
+  }
+
+  .mentors-page .mentor-intro p {
+    font-size: 14px;
+    font-family: Averta-Regular;
+    width: 100%;
+  }
+
+  .mentors-page #mentor-gallery {
+    margin-top: 30px;
+  }
+
+  .mentors-page .mentor-detail {
+    margin-bottom: 30px;
+  }
+
+  /* enroll section */
+
+  .mentors-page #enroll {
+    height: 201px;
+    padding: 10px 0 153px 0;
+  }
+
+  .mentors-page #enroll .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mentors-page #enroll-content {
+    height: 200px;
+  }
+
+  .mentors-page #enroll-content p {
+    font-size: 16px;
+  }
+
+  /* .footer-content {
+    display: none !important;
+  } */
+
+  /* .footer-logo {
+    margin: 80px 0;
+  } */
+
+  .mentors-page .social-handles {
+    margin-top: 60px;
+    margin-bottom: 70px;
+    justify-content: center;
+  }
+
+  .mentors-page .socials img {
+    margin-bottom: 22px;
+  }
+
+  .mentors-page .contact-address {
+    margin-top: 40px;
+  }
+
+  /* footer {
+    margin-top: 100px;
+  } */
+}
+
+
+
+.mentors-page .container {
+  max-width: 1238px !important;
+  overflow: hidden !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+
+@media screen and (max-width:767px) {
+  .mentors-page .mentor-info {
+    text-align: center;
+  }
+
+  .mentors-page .custom-container .row {
+    flex-wrap: wrap;
+  }
+
+  .mentors-page #mentor-gallery .col-md-3 {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .mentors-page #mentor-gallery .col-md-3 {
+    flex: 100%;
+  }
+}
+
+
+.mentors-page .bg {
+
+  background-size: cover;
+  padding-top: 10em;
+  padding-bottom: 10em;
+
+}
+
+.mentors-page .custom-btn {
+  background-color: #E7332B;
+  padding: 8px 20px !important;
+  /*text-align: center;*/
+  color: #ffff !important;
+  display: inline-block;
+}

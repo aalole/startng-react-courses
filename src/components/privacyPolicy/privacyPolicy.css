@@ -1,0 +1,142 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Averta-Regular";
+    src: url("../../assets/fonts/Averta/Averta-Light.otf");
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: "Averta-Bold";
+    src: url("../../assets/fonts/Averta/Averta-Bold.woff")format("woff");
+    font-weight: 600;
+}
+
+.policyBody{
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.policyBody .policy {
+    max-width: 1238px;
+    margin: 0 auto;
+    font-family: "Averta-Regular";
+    background: #fff;
+    padding: 30px 50px
+}
+
+
+.policy h3{
+    color: #E7332B;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 40px 0 20px 0;
+    opacity: .9;
+    text-transform: uppercase;
+    font-family: "Averta-Regular";
+}
+
+.up {
+    padding-top: 4em!important;
+}
+
+.policy-header-container {
+
+    width: 100%;
+    background: #f1ede9 ;
+}
+
+.policy-header-background {
+    width: 100%;
+    height: 20em;
+}
+
+.policy p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: .9;
+}
+
+
+.policyPreface h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E7332B;
+    opacity: .9;
+    padding-top: 40px;
+
+}
+
+.policyOrdered {
+    margin-left: 20px;
+}
+
+.policyUnordered{
+    margin-bottom: 10px;
+}
+
+.policyOrdered,
+.policyUnordered{
+    color: #514949;
+    opacity: .9;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.policyPreface,
+.policyCookies,
+.policyHyperlinks,
+.policy-right-resevation,
+.policy-link-removal,
+.policy-content-stability,
+.privacy-policy {
+    border-bottom: .7px solid rgba(81, 73, 73, 0.35);
+    padding-bottom: 30px;
+}
+
+.policy-pref-p-1,
+.policy-cooky-1 {
+    margin-bottom: 18px;
+}
+
+.policyUnordered li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.policy ul>li:before {
+    content: "-";
+    margin-right: 10px;
+    color: #E7332B;
+}
+
+
+.policyPad-sm {
+    margin-top: 0 !important;
+}
+
+.policyPad-sm p {
+    font-family: "Averta-Bold";
+    font-size: 32px;
+    line-height: 48px;
+}
+
+@media (max-width: 700px) {
+    .policy-title {
+        margin-bottom: 5em;
+    }
+}
+
+
+
+
